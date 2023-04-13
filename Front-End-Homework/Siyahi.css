@@ -1,0 +1,34 @@
+table,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left:450px;  
+  
+}
+td {
+  border: 1px solid black;
+}
+
+.Football:after {
+  content: "\26BD";
+}
+.SideBar{
+  height: 100%;
+  width: 140px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:aliceblue;
+  padding-top:20px; 
+}
+.Sidebar_{
+  display: block;
+  color: aliceblue;
+  background: aliceblue;
+  font-size: 25px;
+  padding: 25px 10px 25px 10px;
+}
+a{
+  text-decoration: none;
+
+}
