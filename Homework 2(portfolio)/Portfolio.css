@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  background: blue;
+}
+.First.Left {
+  background: black;
+  color: aqua;
+  width: 800px;
+  height: 100%;
+}
+.First.Left2 {
+  background: white;
+  color: aqua;
+  width: 800px;
+  height: 100%;
+}
+
+@keyframes name {
+  0% {
+    text-shadow: 0;
+  }
+  50% {
+    text-shadow: 4px 4px 10px red;
+  }
+  100% {
+    text-shadow: 0;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  background: blue;
+}
+.Third.Third1 {
+  background: black;
+  color: aqua;
+  width: 800px;
+  height: 100%;
+}
+.Third.Third2 {
+  background: white;
+  color: aqua;
+  width: 800px;
+  height: 100%;
+}
+.Second {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 345px;
+}
+.Second.Second1 {
+  background: black;
+  width: 700px;
+  height: 345px;
+}
+.Second.Second2 {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 700px;
+  background: blueviolet;
+}
+.Second.Second3 {
+  display: flex;
+  width: 750px;
+  height: 345px;
+  background: white;
+}
+.Second.Second2 {
+  display: flex;
+  flex-direction: row;
+}
+.Second.Second2.Second21 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 345px;
+}
+.Second.Second2.Second22 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 500px;
+}
+a {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+ul {
+  width: 344px;
+  height: 55px;
+  margin-left: 9px;
+  display: flex;
+  list-style-type: none;
+}
+li {
+  padding-top: 5px;
+  color: white;
+  width: 300px;
+  padding-right: 10px;
+  height: 30px;
+  transition: 3s;
+  background: blue;
+}
+li:hover {
+  transform: rotatey(360deg);
+  background: red;
+}
+li:hover a {
+  color: blue;
+}
+h1 {
+  left: 0;
+  width: 200px;
+  height: 400px;
+  /* margin-left: 5px; */
+  font-size: 25px;
+  color: black;
+  background: blueviolet;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: name;
+}
+h2 {
+  left: 0;
+  margin-bottom: 10px;
+}
+h3 {
+  height: 50px;
+  width: 50px;
+  color: red;
+}
+.Second.Second2.Second21.career {
+  width: 250px;
+  margin-left: 5px;
+}
+.Second.Second2.Second22.Hi {
+  color: black;
+  height: 40px;
+  font-size: 20px;
+
+  margin-left: 140px;
+}
+.Second.Second2.Second22.Hi1 {
+  text-align: start;
+  font-size: 15px;
+  width: 190px;
+  height: 100px;
+}
+.Second.Second2.Second22.p {
+  margin: 9px;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 150px;
+}
+@keyframes P {
+  0% {
+    background: yellow;
+  }
+  50% {
+    background: linear-gradient(to right, yellow, red);
+  }
+  100% {
+    background: red;
+  }
+}
+.Second.Second2.Second22.p.p1 {
+  width: 45px;
+  height: 20px;
+  font-size: 11px;
+  background: yellow;
+  padding: 10px;
+}
+.Second.Second2.Second22.p.p2 {
+  width: 45px;
+  height: 20px;
+  font-size: 11px;
+  background: red;
+  padding: 10px;
+}
+.Second.Second2.Second22.p.p3 {
+  width: 45px;
+  height: 20px;
+  font-size: 11px;
+  animation-name: P;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  padding: 10px;
+}
